@@ -9,16 +9,14 @@ export default function App() {
 
   <View style={styles.coluna}>
   <TouchableOpacity style={styles.view1}>
-        <Image source={require('./assets/favicon.png')}/>
+    <Text>xis coração</Text>
+        <Image source={require('./assets/xc.jpeg')}/>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.view3}>
       <Image source={require('./assets/favicon.png')}/>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.view2}>
-      <Image source={require('./assets/favicon.png')}/>
-      </TouchableOpacity>
   </View>
 
 
@@ -31,9 +29,6 @@ export default function App() {
       <Image source={require('./assets/favicon.png')}/>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.view2}>
-      <Image source={require('./assets/favicon.png')}/>
-      </TouchableOpacity>
   </View>
       
 
